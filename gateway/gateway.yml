@@ -6,4 +6,4 @@ eureka:
     register-with-eureka: true
     service-url.defaultZone: http://localhost:11557/eureka/
 
-api.icndb.url:
+icndb.api.url: http://api.icndb.com/
