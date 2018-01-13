@@ -1,16 +1,13 @@
-server:
-  port: 8443
+server.port: 8443
 
 eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:11557/eureka/
+    service-url.defaultZone: http://localhost:11557/eureka/
 
 security:
-  basic:
-    enabled: false
+  basic.enabled: false
   sessions: NEVER
 
 zuul:

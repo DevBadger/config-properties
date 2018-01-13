@@ -1,9 +1,9 @@
-server:
-  port: 11552
+server.port: 11552
 
 eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:11557/eureka/
+    service-url.defaultZone: http://localhost:11557/eureka/
+
+api.icndb.url:

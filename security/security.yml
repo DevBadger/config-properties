@@ -5,14 +5,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:11557/eureka/
+    service-url.defaultZone: http://localhost:11557/eureka/
 
-management:
-  security:
-    enabled: true
+management.security.enabled: true
 
-spring:
-  resources:
-    chain:
-      enabled: true
+spring.resources.chain.enabled: true
