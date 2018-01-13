@@ -3,4 +3,18 @@ server:
 
 eureka:
   client:
-    fetch-registry: false
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:11557/eureka/
+
+security:
+  basic:
+    enabled: false
+  sessions: NEVER
+
+zuul:
+  routes:
+    service:
+      sensitiveHeaders:
+      url: http://localhost:8443/service

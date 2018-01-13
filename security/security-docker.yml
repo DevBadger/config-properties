@@ -1,2 +1,6 @@
 server:
   port: 8080
+
+eureka:
+  client:
+    defaultZone: http://eureka:8080/eureka/

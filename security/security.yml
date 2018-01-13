@@ -4,6 +4,9 @@ server:
 eureka:
   client:
     fetch-registry: false
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:11557/eureka/
 
 management:
   security:
