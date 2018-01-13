@@ -1,3 +1,6 @@
+server:
+  port: 11553
+
 eureka:
   client:
     fetch-registry: false
