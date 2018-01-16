@@ -1,4 +1,0 @@
-eureka.instance:
-    hostname: ${spring.application.name}
-    instance-id: ${spring.application.name}_${random.int}:${server.port}
-    preferIpAddress: false
