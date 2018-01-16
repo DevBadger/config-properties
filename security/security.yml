@@ -1,5 +1,4 @@
-server:
-  port: 11553
+server.port: 11553
 
 eureka:
   client:
@@ -12,5 +11,4 @@ eureka:
     preferIpAddress: false
 
 management.security.enabled: true
-
 spring.resources.chain.enabled: true

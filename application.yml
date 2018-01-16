@@ -1,0 +1,5 @@
+security:
+  jwt:
+    secret: testSecret
+    expiration: 315569260000 # 10 year
+    notBefore: 315569260000 #10 year
