@@ -19,3 +19,6 @@ zuul:
     service:
       sensitiveHeaders:
       url: http://localhost:8443/service
+    graphql:
+      sensitiveHeaders:
+      url: http://localhost:8443/graphql
