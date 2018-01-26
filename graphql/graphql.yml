@@ -1,4 +1,4 @@
-server.port: 11553
+server.port: 11554
 
 eureka:
   client:
