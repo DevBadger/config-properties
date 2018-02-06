@@ -1,0 +1,13 @@
+server.port: 11552
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url.defaultZone: http://localhost:11550/eureka/
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}_${random.int}:${server.port}
+    preferIpAddress: false
+
+icndb.api.url: http://api.icndb.com/
