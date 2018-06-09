@@ -1,0 +1,13 @@
+server.port: 8080
+
+eureka.client:
+    fetch-registry: false
+    register-with-eureka: true
+    service-url.defaultZone: http://discovery:8080/eureka/
+  instance:
+    hostname: flex-security
+    instance-id: ${spring.application.name}_${random.int}:${server.port}
+    preferIpAddress: false
+
+management.security.enabled: true
+spring.resources.chain.enabled: true
